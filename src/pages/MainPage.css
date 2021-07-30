@@ -6,7 +6,7 @@
   background-color: #eeeeee;
   border-radius: 3rem;
   overflow: hidden;
-  box-shadow: 13px 12px 37px 0px rgba(0,0,0,0.75);
--webkit-box-shadow: 13px 12px 37px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 13px 12px 37px 0px rgba(0,0,0,0.75);
+  box-shadow: 13px 12px 37px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 13px 12px 37px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 13px 12px 37px 0px rgba(0, 0, 0, 0.75);
 }
