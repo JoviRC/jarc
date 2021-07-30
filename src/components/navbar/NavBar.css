@@ -1,0 +1,32 @@
+.navbar {
+  align-items: center;
+  display: flex;
+  position: sticky;
+  left: 0;
+  width: fit-content;
+  height: 100%;
+  background-color: #512d6d;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  border-radius: 3rem;
+  
+}
+.navbar__link{
+  height: fit-content;
+  width:fit-content;
+}
+
+.navbar__ul {
+  max-width: fit-content;
+  margin-right: 1rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+.navbar__a {
+  text-align: center;
+  font-size: 2rem;
+  color: #f8485e;
+  line-height: 2;
+  font-family: 'Source Code Pro', monospace;
+  cursor: pointer;
+}
