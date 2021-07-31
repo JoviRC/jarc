@@ -2,8 +2,8 @@
   width: 80%;
   height: 80vh;
   margin: 10vh auto;
-  display: block;
-  background-color: #eeeeee;
+  display: flex;
+  background-color: #512D6D;
   border-radius: 3rem;
   overflow: hidden;
   box-shadow: 13px 12px 37px 0px rgba(0, 0, 0, 0.75);

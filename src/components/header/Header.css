@@ -1,0 +1,54 @@
+.header__content {
+  height: 100%;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+.header__titulo {
+  height: fit-content;
+  width: 20vw;
+  transition: all 1s;
+  animation-name: hoverTitule;
+  animation-duration: 1s;
+  animation-direction: reverse;
+
+}
+
+.header__h1 {
+  display: block;
+  font-size: 5rem;
+  line-height: 1.3;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 900;
+  color: #f8485e;
+  width: auto;
+  margin: auto;
+  transition: all 1s;
+}
+.header__h1--last {
+  float: right;
+  text-align: right;
+  margin: auto;
+}
+
+.header__titulo:hover {
+  padding-left: 2vw;
+  width: 17vw;
+}
+.header__titulo:hover .header__h1{
+    font-size: 5.5rem;
+}
+
+
+@keyframes hoverTitule {
+  from {
+    margin-left: 0;
+    width: 20vw;
+    opacity: 100%;
+  }
+  to {
+    margin-left: 2vw;
+    width: 15vw;
+    opacity: 0%;
+  }
+}

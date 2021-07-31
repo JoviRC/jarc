@@ -9,24 +9,53 @@
   padding-left: 3rem;
   padding-right: 3rem;
   border-radius: 3rem;
-  
 }
-.navbar__link{
+.navbar::after {
+  content: "";
+  background-color: #f8485e;
+  width: 0.5em;
+  height: 80%;
+  animation-name: slideAfter;
+  animation-duration: 1s;
+  animation-direction: reverse;
+}
+.navbar__link {
   height: fit-content;
-  width:fit-content;
+  width: 36vw;
 }
 
 .navbar__ul {
-  max-width: fit-content;
-  margin-right: 1rem;
+  width: fit-content;
+  margin: auto 1em auto auto;
   border-radius: 0.5rem;
   padding: 0.5rem;
 }
 .navbar__a {
-  text-align: center;
+  text-align: right;
   font-size: 2rem;
   color: #f8485e;
   line-height: 2;
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Source Code Pro", monospace;
   cursor: pointer;
+  animation-name: slideLink;
+  animation-duration: 1s;
+  animation-direction: reverse;
+  transition: all 1s;
+}
+
+.navbar__a:hover {
+  font-size: 2.5rem;
+}
+
+@keyframes slideAfter {
+  to {
+    height: 0;
+  }
+}
+
+@keyframes slideLink {
+  to {
+    font-size: 1rem;
+    opacity: 0%;
+  }
 }
